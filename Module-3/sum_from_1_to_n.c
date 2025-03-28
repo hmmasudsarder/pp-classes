@@ -1,5 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n, 
+    int n;
+    screnf("%d", &n); 
+    return 0;
 }
