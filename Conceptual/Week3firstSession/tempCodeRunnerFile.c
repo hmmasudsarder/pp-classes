@@ -1,2 +1,1 @@
-int n;
-    // scanf("%d", &n);
+        int min = INT_MAX;
