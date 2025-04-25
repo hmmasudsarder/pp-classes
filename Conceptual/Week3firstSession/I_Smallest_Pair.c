@@ -23,7 +23,7 @@ int main()
             {
                 int value = A[i] + A[j] + j - i;
                 if (min > value)
-                {
+                {  
                     min = value;
                 }
             }
