@@ -5,11 +5,11 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
-        // print leading spaces
+        
         for (int j = 1; j <= n - i; j++) {
             printf(" ");
         }
-        // print numbers in reverse order
+        
         for (int k = i; k >= 1; k--) {
             printf("%d", k);
         }
